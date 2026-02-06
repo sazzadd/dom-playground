@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main class="min-h-screen bg-slate-100 flex items-center justify-center">
+      <section
+        class="bg-purple-200 max-w-2xl w-full p-12 rounded-2xl shadow-md"
+      >
+        <h1
+          class="text-center m-5 text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500"
+        >
+          DOM Playground
+        </h1>
+        <input
+          id="inputText"
+          type=""
+          placeholder="write something"
+          class="border-2 px-2 focus:border-purple-500 border-purple-300 w-full py-2 outline-none rounded-md mb-6"
+        />
+
+        <div class="grid gap-x-6 gap-y-4 grid-cols-2 py-5">
+            <button
+              id="addBtn"
+              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-green-400 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
+            >
+              Add Item
+            </button>
+            <button
+              id="removeBtn"
+              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-red-400 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
+            >
+              Remove Last Item
+            </button>
+            <button
+              id=""
+              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-yellow-400 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
+            >
+              Inner Html
+            </button>
+            <button
+              id=""
+              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-blue-600 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
+            >
+              Change Style
+            </button>
+            
+
+            
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
