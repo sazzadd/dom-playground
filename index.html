@@ -21,37 +21,41 @@
           placeholder="write something"
           class="border-2 px-2 focus:border-purple-500 border-purple-300 w-full py-2 outline-none rounded-md mb-6"
         />
-
+        <!-- button groups -->
         <div class="grid gap-x-6 gap-y-4 grid-cols-2 py-5">
-            <button
-              id="addBtn"
-              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-green-400 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
-            >
-              Add Item
-            </button>
-            <button
-              id="removeBtn"
-              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-red-400 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
-            >
-              Remove Last Item
-            </button>
-            <button
-              id=""
-              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-yellow-400 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
-            >
-              Inner Html
-            </button>
-            <button
-              id=""
-              class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-blue-600 font-semi-bold hover:bg-gray-800 hover:text-white   transition duration-400 ease-in-out"
-            >
-              Change Style
-            </button>
-            
-
-            
+          <button
+            id="addBtn"
+            class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-green-400 font-semi-bold hover:bg-gray-800 hover:text-white transition duration-400 ease-in-out"
+          >
+            Add Item
+          </button>
+          <button
+            id="removeBtn"
+            class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-red-400 font-semi-bold hover:bg-gray-800 hover:text-white transition duration-400 ease-in-out"
+          >
+            Remove Last Item
+          </button>
+          <button
+            id="changeHtmlBtn"
+            class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-yellow-400 font-semi-bold hover:bg-gray-800 hover:text-white transition duration-400 ease-in-out"
+          >
+            Inner Html
+          </button>
+          <button
+            id="ChangeStyleBtn"
+            class="btn text-[18px] font-bold text-xl rounded-[10px] py-2 text-gray-700 bg-blue-600 font-semi-bold hover:bg-gray-800 hover:text-white transition duration-400 ease-in-out"
+          >
+            Change Style
+          </button>
         </div>
+        <!-- list-container -->
+        <ul class="itemList space-y-5" id="itemList">
+          <li
+            class="p-6 bg-purple-200 rounded-2xl text-2xl cursor-pointer"
+          ></li>
+        </ul>
       </section>
     </main>
+    <script src="./app.js"></script>
   </body>
 </html>
