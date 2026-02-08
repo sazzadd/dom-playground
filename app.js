@@ -16,3 +16,5 @@ addBtn.onclick = () => {
   input.value = "";
 };
 console.log("hallow");
+console.log(text);
+
